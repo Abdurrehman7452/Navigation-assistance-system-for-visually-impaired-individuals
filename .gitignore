@@ -1,0 +1,23 @@
+# Virtual environment
+venv/
+
+# Model weights (too large for GitHub)
+*.pth
+*.onnx
+*.onnx.data
+
+# Third-party submodules (cloned separately)
+obs-tackle/third_party/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Screenshots (local only)
+screenshots/
+
+# OS files
+Thumbs.db
+.DS_Store

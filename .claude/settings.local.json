@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -E \"\\\\.\\(py|json|yaml|txt|md\\)$\"2)",
+      "Bash(file D:/PROJECTS/FYP/*.png D:/PROJECTS/FYP/*.jpg)",
+      "Bash(find D:/PROJECTS/FYP -type f -name *.py)",
+      "Bash(git init:*)",
+      "Bash(git remote:*)",
+      "Bash(git fetch:*)",
+      "Bash(git ls-remote:*)",
+      "Bash(gh repo:*)",
+      "WebFetch(domain:api.github.com)"
+    ]
+  }
+}
